@@ -5,4 +5,5 @@ layout: post
 tags: [jetson]
 category: [Jetson Nano]
 author: khaido
+comments: true
 ---
