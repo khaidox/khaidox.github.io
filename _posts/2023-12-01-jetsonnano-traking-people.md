@@ -1,5 +1,5 @@
 ---
-created: 2024-11-01
+created: 2023-12-01
 title: Tracking people in real time
 layout: post
 tags: [jetson,deeplearning,machinelearning]
@@ -7,6 +7,8 @@ category: [Jetson Nano]
 author: khaido
 comments: true
 ---
+
+> This is a note on my past study progress
 
 Hiện thực, tối ưu và kiểm nghiệm module truy vết con người trên môi trường thiết bị nhúng NVIDIA Jetson Nano Developer Kit.
 
