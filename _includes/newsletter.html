@@ -1,0 +1,26 @@
+<!-- Buttondown Newsletter Subscription Widget -->
+{% if site.buttondown_username %}
+<div class="card mb-4 mt-4 border-0 shadow-sm rounded-3">
+  <div class="card-body p-4 text-center">
+    <h4 class="card-title fw-bold mb-2">Subscribe to Newsletter</h4>
+    <p class="card-text text-muted small mb-3">Get new blog posts delivered directly to your inbox. No spam, unsubscribe anytime.</p>
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/{{ site.buttondown_username }}"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.email/{{ site.buttondown_username }}', 'popupwindow')"
+      class="d-flex flex-column flex-sm-row justify-content-center gap-2 max-width-form mx-auto"
+    >
+      <input
+        type="email"
+        name="email"
+        id="bd-email"
+        class="form-control"
+        placeholder="Enter your email address..."
+        required
+      />
+      <button type="submit" class="btn btn-primary px-4">Subscribe</button>
+    </form>
+  </div>
+</div>
+{% endif %}
